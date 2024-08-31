@@ -2,7 +2,7 @@ var a_idx = 0;
 jQuery(document).ready(function($) {
     $("body").click(function(e) {
         var a = new Array
-        ("樱木花道", "木之本樱", "结城明日奈", "阿尔托莉雅z", "御坂美琴", "雷姆", "我妻由乃", "立华奏", "安莉洁", "帕洛斯", "卡米尔", "音无结弦");
+        ("樱木花道", "木之本樱", "结城明日奈", "阿尔托莉雅", "御坂美琴", "雷姆", "我妻由乃", "立华奏", "安莉洁", "帕洛斯", "卡米尔", "音无结弦");
         var $i = $("<span/>").text(a[a_idx]);
         a_idx = (a_idx + 1) % a.length;
         var x = e.pageX,
